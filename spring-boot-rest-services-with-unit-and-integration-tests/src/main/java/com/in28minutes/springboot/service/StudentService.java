@@ -14,7 +14,7 @@ import com.in28minutes.springboot.model.Student;
 @Component
 public class StudentService {
 
-	private static List<Student> students = new ArrayList<>();
+	private static List<Student> students = new ArrayList<Student>();
 
 	static {
 		//Initialize Data
